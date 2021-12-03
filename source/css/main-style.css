@@ -1,0 +1,63 @@
+body {
+    background-color: #fff;
+}
+
+.map {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.window {
+    position: fixed;
+    display: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    top: 30em;
+    left: auto;
+    box-shadow: 0 0 2px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.window h1 {
+    margin: 0;
+    font-size: 32px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+.window h2 {
+    font-size:20px;
+}
+
+
+.close-window {
+    margin: 0px;
+    padding: 0 8px;
+    font-size: 32px;
+    cursor: pointer;
+    float: right;
+}
+
+.header-window {
+    border-bottom: 1px rgb(0, 0, 0, .2);
+    border-bottom-style: solid;
+    align-items: center;
+}
+
+.bor-close-window {
+    float: right; 
+    border-left: 1px rgb(0, 0, 0, .3);
+    border-left-style: solid;
+}

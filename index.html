@@ -3,7 +3,8 @@
 <head>
     <title>Интерактивная карта</title>
     <meta charset="utf-8">
-    <link href="source/css/style.css" rel="stylesheet">
+    <link href="source/css/main-style.css" rel="stylesheet">
+    <link href="source/css/style-points.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -15,12 +16,18 @@
             <circle id=2p class="point" cx=653.5 cy=566 r=10 fill="#fff"></circle>
         </svg>
         <div class="window">
-            <div class="close-window">
-                <a type="button" class="close-window.button" onclick="cls_wn()">×</a>
+            <div class="header-window">
+                <div class="bor-close-window">
+                    <div class="close-window">
+                        <a type="button" class="close-window.button" onclick="cls_wn()">×</a>
+                    </div>
+                </div>
+                <h1>name</h1>
             </div>
-            <h1>name</h1>
-            <h2>sight</h2>
-            <p>description</p>
+            <div calss="main-window">
+                <h2>sight</h2>
+                <p>description</p>
+            </div>
         </div>
         <img src="source/img/mapJr.png">
     </div>
