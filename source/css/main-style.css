@@ -30,11 +30,53 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.window h1 {
-    margin: 0;
-    font-size: 32px;
-    padding-left: 1em;
+.pad-window {
+    padding: 0 1em;
+}
+
+.header-window {
+    border-bottom: 1px rgb(0, 0, 0, .2);
+    border-bottom-style: solid;
+    align-items: center;
+    display: flex;
+}
+
+.region-name {
+    padding-left: 2em;
     text-align: left;
+}
+
+.region-name span {
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+}
+
+.bor-close-window {
+    padding: 0 16px;
+    margin-left: auto;
+    border-left: 1px rgb(0, 0, 0, .3);
+    border-left-style: solid;
+    order: 2;
+}
+
+.close-window {
+    margin: 0px;
+    
+    font-size: 32px;
+    cursor: pointer;
+    float: right;
+}
+
+.main-window {
+    
+}
+
+.content-window {
+    overflow-y: auto;
+    height: 100px;
+    scrollbar-width: thin;
+    border-radius: 10px;
 }
 
 .window h2 {
@@ -42,22 +84,6 @@ body {
 }
 
 
-.close-window {
-    margin: 0px;
-    padding: 0 8px;
-    font-size: 32px;
-    cursor: pointer;
-    float: right;
-}
 
-.header-window {
-    border-bottom: 1px rgb(0, 0, 0, .2);
-    border-bottom-style: solid;
-    align-items: center;
-}
 
-.bor-close-window {
-    float: right; 
-    border-left: 1px rgb(0, 0, 0, .3);
-    border-left-style: solid;
-}
+

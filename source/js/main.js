@@ -1,7 +1,7 @@
 function chose_win(_event) {
     switch (_event) {
         case "1p":
-            $(".window h1").html("Жирновск")
+            $(".window span").html("Жирновск")
             $(".window h2").html("Памятная стела Скважина №1")
             $(".window p").html("Памятная стела свидетельствует о начале " +
                 "промышленной добычи нефти " +
@@ -10,7 +10,7 @@ function chose_win(_event) {
             $(".window").show();
             break;
         case "2p":
-            $(".window h1").html("Линёво")
+            $(".window span").html("Линёво")
             $(".window h2").html("sight")
             $(".window p").html("description")
             $(".window").show();
