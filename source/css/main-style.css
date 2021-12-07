@@ -4,7 +4,6 @@ body {
 
 .map {
     position: relative;
-    text-align: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -28,10 +27,6 @@ body {
     left: auto;
     box-shadow: 0 0 2px black;
     font-family: 'Montserrat', sans-serif;
-}
-
-.pad-window {
-    padding: 0 1em;
 }
 
 .header-window {
@@ -62,28 +57,33 @@ body {
 
 .close-window {
     margin: 0px;
-    
     font-size: 32px;
     cursor: pointer;
     float: right;
 }
 
 .main-window {
-    
+    text-align: center;
 }
 
 .content-window {
+    padding: 0 2em;
     overflow-y: auto;
-    height: 100px;
+    height: 350px;
     scrollbar-width: thin;
-    border-radius: 10px;
+    scroll-behavior: smooth;
+    border-radius: 2em;
+}
+
+.content-window p {
+    content: "";
 }
 
 .window h2 {
     font-size:20px;
 }
 
-
-
-
-
+.content-window img {
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
